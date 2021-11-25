@@ -1,0 +1,119 @@
+const competitors =[
+    {
+        name: "Daniel",
+        points : 0,
+        targetsMet: 0
+    },
+    {
+        name: "Ahmed",
+        points : 0,
+        targetsMet: 0
+    },
+    {
+        name: "Clinton",
+        points : 0,
+        targetsMet: 0
+    },
+    {
+        name: "Eleazar",
+        points : 0,
+        targetsMet: 0
+    },
+    {
+        name: "Jade",
+        points : 0,
+        targetsMet: 0
+    },
+    {
+        name: "Juwon",
+        points : 0,
+        targetsMet: 0
+    },
+    {
+        name: "Samuel",
+        points : 0,
+        targetsMet: 0
+    },
+    {
+        name: "Victor",
+        points : 0,
+        targetsMet: 0
+    },
+    {
+        name: "Success",
+        points : 0,
+        targetsMet: 0
+    },
+    {
+        name: "Prosper",
+        points : 0,
+        targetsMet: 0
+    },
+    {
+        name: "Joshua",
+        points : 0,
+        targetsMet: 0
+    },
+    {
+        name: "Nyerho",
+        points : 0,
+        targetsMet: 0
+    },
+    {
+        name: "Lateef",
+        points : 0,
+        targetsMet: 0
+    },
+    {
+        name: "Zarouk",
+        points : 0,
+        targetsMet: 0
+    },
+    {
+        name: "Esther",
+        points : 0,
+        targetsMet: 0
+    },
+    {
+        name: "Wofe",
+        points : 0,
+        targetsMet: 0
+    },
+    {
+        name: "Kobi",
+        points : 0,
+        targetsMet: 0
+    },
+]
+
+const sortedByName = competitors.sort((a,b) => {
+    if(a.name > b.name){
+        return 1;
+    }else {
+        return -1;
+    }
+})
+const sortedByPoints = competitors.sort((a,b) => {
+    if(a.points > b.points){
+        return -1;
+    }else {
+        return 1;
+    }
+})
+
+const table = document.querySelector("#table");
+
+const row = document.createElement("tr");
+
+    for(i=0; i<sortedByPoints.length; i++){
+        row.innerHTML = `
+        <td>${i+1}</td>
+        <td style="text-align: center;">${competitors[i].name}</td>
+        <td style="text-align: center;">${competitors[i].points}</td>
+        <td style="text-align: center;">${competitors[i].targetsMet}</td>`
+
+        table.append(row.cloneNode(true))
+    }
+
+    console.table(sortedByPoints)
+
