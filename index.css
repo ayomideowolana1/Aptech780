@@ -54,6 +54,8 @@ td{
 }
 
 img{
+    width: 100%;
+    height: auto;
     max-width: 500px;
     margin:5px 0px 5px 0px ;
 }
