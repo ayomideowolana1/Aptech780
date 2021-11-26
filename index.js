@@ -115,5 +115,5 @@ const row = document.createElement("tr");
         table.append(row.cloneNode(true))
     }
 
-    console.table(sortedByPoints)
+   
 
