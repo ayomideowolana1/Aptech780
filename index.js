@@ -84,6 +84,11 @@ const competitors =[
         points : 0,
         targetsMet: 0
     },
+    {
+        name: "David",
+        points : 0,
+        targetsMet: 0
+    },
 ]
 
 const sortedByName = competitors.sort((a,b) => {
