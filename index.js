@@ -16,14 +16,14 @@ const competitors =[
     },
     {
         name: "Eleazar",
-        points : 0,
-        targetsMet: 0
+        points : 5,
+        targetsMet: 1
     },
-    {
-        name: "Jade",
-        points : 0,
-        targetsMet: 0
-    },
+    // {
+    //     name: "Jade",
+    //     points : 0,
+    //     targetsMet: 0
+    // },
     {
         name: "Juwon",
         points : 0,
@@ -56,8 +56,8 @@ const competitors =[
     },
     {
         name: "Nyerho",
-        points : 0,
-        targetsMet: 0
+        points : 5,
+        targetsMet: 1
     },
     {
         name: "Lateef",
@@ -76,8 +76,8 @@ const competitors =[
     },
     {
         name: "Wofe",
-        points : 0,
-        targetsMet: 0
+        points : 5,
+        targetsMet: 1
     },
     {
         name: "Kobi",
