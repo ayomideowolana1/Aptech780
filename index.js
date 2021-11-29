@@ -13,7 +13,7 @@ const competitors =[
     },
     {
         name: "Clinton",
-        points : 0,
+        points : 2,
         targetsMet: 0,
         topFive: 0,
     },
@@ -85,7 +85,7 @@ const competitors =[
     },
     {
         name: "Esther",
-        points : 0,
+        points : 2,
         targetsMet: 0,
         topFive:0,
     },
